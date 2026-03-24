@@ -34,6 +34,7 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 /* ===== Dark Theme (Default) ===== */
@@ -50,7 +51,7 @@ body {
 /* ===== Scroll Animation Classes ===== */
 .scroll-hidden {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
@@ -61,14 +62,23 @@ body {
 
 .scroll-hidden-left {
   opacity: 0;
-  transform: translateX(-30px);
+  transform: translateX(-15px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .scroll-hidden-right {
   opacity: 0;
-  transform: translateX(30px);
+  transform: translateX(15px);
   transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+@media (min-width: 768px) {
+  .scroll-hidden-left {
+    transform: translateX(-30px);
+  }
+  .scroll-hidden-right {
+    transform: translateX(30px);
+  }
 }
 
 .scroll-visible-x {
@@ -121,11 +131,20 @@ html {
 }
 
 [dir="rtl"] .scroll-hidden-left {
-  transform: translateX(30px);
+  transform: translateX(15px);
 }
 
 [dir="rtl"] .scroll-hidden-right {
-  transform: translateX(-30px);
+  transform: translateX(-15px);
+}
+
+@media (min-width: 768px) {
+  [dir="rtl"] .scroll-hidden-left {
+    transform: translateX(30px);
+  }
+  [dir="rtl"] .scroll-hidden-right {
+    transform: translateX(-30px);
+  }
 }
 
 /* ===== Selection ===== */

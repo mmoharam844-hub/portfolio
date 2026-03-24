@@ -4,12 +4,12 @@ import { Component, input, ChangeDetectionStrategy } from '@angular/core';
   selector: 'app-section-header',
   template: `
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
         <span class="text-[var(--color-primary)]">{{ titleHighlight() }}</span>
         {{ titleRest() }}
       </h2>
       @if (subtitle()) {
-        <p class="text-lg max-w-2xl mx-auto"
+        <p class="text-sm sm:text-base md:text-lg max-w-2xl mx-auto px-2"
            [class]="themeTextSecondary">
           {{ subtitle() }}
         </p>

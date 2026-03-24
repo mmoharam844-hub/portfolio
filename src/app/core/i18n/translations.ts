@@ -100,6 +100,7 @@ export const TRANSLATIONS: Record<string, Record<Lang, string>> = {
   'personal.highlight_projects': { en: 'Projects Completed', ar: 'مشاريع منجزة' },
   'personal.highlight_technologies': { en: 'Technologies', ar: 'تقنيات' },
   'personal.highlight_focus': { en: 'Focus', ar: 'التخصص' },
+  'personal.highlight_visitors': { en: 'Visitors', ar: 'زائر' },
   'personal.location': { en: 'Cairo, Egypt', ar: 'القاهرة، مصر' },
 
   // Quote Calculator
@@ -176,4 +177,21 @@ export const TRANSLATIONS: Record<string, Record<Lang, string>> = {
   'project.nextlearnhub_feature_2': { en: 'Dynamic subdomain system for provider profiles', ar: 'نظام نطاقات فرعية ديناميكي لملفات مقدمي الخدمات' },
   'project.nextlearnhub_feature_3': { en: 'Course enrollment workflows and learning dashboards', ar: 'عمليات تسجيل الدورات ولوحات تعلم مخصصة' },
   'project.nextlearnhub_feature_4': { en: 'Comprehensive admin dashboard for platform management', ar: 'لوحة تحكم شاملة لإدارة المنصة' },
+
+  // Online Learning Platform Project
+  'project.olp_title': { en: 'Online Learning Platform', ar: 'منصة تعليم أونلاين' },
+  'project.olp_desc': {
+    en: 'An online learning platform for diagnostic radiology with student & admin portals, course management, subscriptions, and payment tracking.',
+    ar: 'منصة تعليم أونلاين للأشعة التشخيصية مع بوابة طالب وأدمن وإدارة كورسات واشتراكات وتتبع مدفوعات.',
+  },
+  'project.olp_long_desc': {
+    en: 'A complete online learning platform built for a diagnostic radiology instructor. The platform features two separate portals: a student-facing side with course browsing, registration, subscription management, video course viewer, and a personal notes system. The admin portal provides full control over courses, lessons, student management, and payment tracking. Built as a static frontend application using vanilla JavaScript with localStorage for data persistence, making it lightweight and easy to deploy.',
+    ar: 'منصة تعليم أونلاين متكاملة مصممة لدكتور أشعة تشخيصية. المنصة فيها بوابتين منفصلتين: واجهة الطالب فيها تصفح الكورسات والتسجيل وإدارة الاشتراكات ومشاهدة الفيديوهات ونظام ملاحظات شخصي. بوابة الأدمن بتوفر تحكم كامل في الكورسات والدروس وإدارة الطلاب وتتبع المدفوعات. تم بناؤها كتطبيق فرونت إند ثابت باستخدام JavaScript مع localStorage لحفظ البيانات.',
+  },
+  'project.olp_role': { en: 'Frontend Developer', ar: 'مطور واجهة أمامية' },
+  'project.olp_duration': { en: '2 Weeks', ar: 'أسبوعين' },
+  'project.olp_feature_1': { en: 'Student portal with course browsing, registration & video viewer', ar: 'بوابة طالب مع تصفح الكورسات والتسجيل ومشاهدة الفيديوهات' },
+  'project.olp_feature_2': { en: 'Admin dashboard for courses, lessons, students & payments', ar: 'لوحة تحكم أدمن للكورسات والدروس والطلاب والمدفوعات' },
+  'project.olp_feature_3': { en: 'Subscription system with multiple payment methods', ar: 'نظام اشتراكات مع طرق دفع متعددة' },
+  'project.olp_feature_4': { en: 'Personal notes system and learning progress tracking', ar: 'نظام ملاحظات شخصي وتتبع تقدم التعلم' },
 };

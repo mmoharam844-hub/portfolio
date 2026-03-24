@@ -88,6 +88,25 @@ export const PROJECTS: Project[] = [
       url: 'jNQXAC9IVRw',
     },
   },
+  {
+    slug: 'online-learning-platform',
+    title: 'project.olp_title',
+    description: 'project.olp_desc',
+    longDescription: 'project.olp_long_desc',
+    image: 'assets/images/projects/project-1.webp',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'localStorage'],
+    liveUrl: 'https://mmoharam844-hub.github.io/Online-Learning-Platform-Management/',
+    githubUrl: 'https://github.com/mmoharam844-hub/Online-Learning-Platform-Management',
+    featured: true,
+    role: 'project.olp_role',
+    duration: 'project.olp_duration',
+    features: [
+      'project.olp_feature_1',
+      'project.olp_feature_2',
+      'project.olp_feature_3',
+      'project.olp_feature_4',
+    ],
+  },
 ];
 
 export const CERTIFICATES: Certificate[] = [
@@ -164,7 +183,7 @@ export const PERSONAL_INFO = {
   bio: `Full Stack Developer with hands-on experience building scalable multi-role SaaS platforms using Angular and .NET. Skilled in developing RESTful APIs with ASP.NET Core, managing SQL databases, and delivering complete end-to-end features from backend to frontend. Electrical Engineering background brings a disciplined, systems-thinking approach to software architecture and problem-solving.`,
   highlights: [
     { label: 'Education', value: 'B.Eng' },
-    { label: 'Projects Completed', value: '2+' },
+    { label: 'Projects Completed', value: '3+' },
     { label: 'Technologies', value: '15+' },
     { label: 'Focus', value: '.NET' },
   ],
