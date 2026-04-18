@@ -38,8 +38,6 @@ export const SKILLS: Skill[] = [
   // Tools
   { name: 'Git', icon: 'assets/icons/tech/git.svg', category: 'tools' },
   { name: 'GitHub', icon: 'assets/icons/tech/git.svg', category: 'tools' },
-  { name: 'Postman', icon: 'assets/icons/tech/vscode.svg', category: 'tools' },
-  { name: 'Figma', icon: 'assets/icons/tech/vscode.svg', category: 'tools' },
   { name: 'Visual Studio', icon: 'assets/icons/tech/vs.svg', category: 'tools' },
   { name: 'VS Code', icon: 'assets/icons/tech/vscode.svg', category: 'tools' },
 ];
@@ -52,7 +50,6 @@ export const PROJECTS: Project[] = [
     longDescription: 'project.edu_center_long_desc',
     image: 'assets/images/projects/project-1.webp',
     technologies: ['ASP.NET MVC', '.NET Framework', 'SQL Server', 'Angular', 'Identity Framework'],
-    githubUrl: 'https://github.com/mohamedmoharam',
     featured: true,
     role: 'project.edu_center_role',
     duration: 'project.edu_center_duration',
@@ -84,8 +81,8 @@ export const PROJECTS: Project[] = [
       'project.nextlearnhub_feature_4',
     ],
     video: {
-      type: 'youtube',
-      url: 'jNQXAC9IVRw',
+      type: 'self-hosted',
+      url: 'assets/videos/nextlearnhub-demo.mp4',
     },
   },
   {
@@ -96,7 +93,6 @@ export const PROJECTS: Project[] = [
     image: 'assets/images/projects/project-1.webp',
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'localStorage'],
     liveUrl: 'https://mmoharam844-hub.github.io/Online-Learning-Platform-Management/',
-    githubUrl: 'https://github.com/mmoharam844-hub/Online-Learning-Platform-Management',
     featured: true,
     role: 'project.olp_role',
     duration: 'project.olp_duration',
